@@ -1,0 +1,34 @@
+package demo;
+
+import java.io.FileInputStream;
+import java.util.Iterator;
+
+import com.gargoylesoftware.htmlunit.javascript.host.Set;
+import com.google.common.collect.Table.Cell;
+
+
+
+public abstract  class ExcalDemo<xssf> {
+
+	private static final String sheet = null;
+
+	public static  void main(String[] args) {
+		
+	FileInputStream fis= new fileinputstream(new file("C:\\Users\\Shri\\Documents\\Book1.xlsx\");
+			
+  XSSFWorkbook Workbook=new XSSFworkbook(fis);
+  
+  XSSFSheet=Workbook.getSheet("Book1");
+  
+		int row= sheet.get LastRowNum() {
+			return null;
+		}
+		xssf row=Sheiet.getrow(0);
+		int cols =row.getLast(0);
+		int rows=-sheet.getLastrowNum();
+		for (int i=0 ;i<5;i++) {
+	
+			
+			for (int j=0;j<2;j++) {
+			 
+				row= sheet.getRow(i);
